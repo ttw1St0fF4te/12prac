@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: background 0.5s ease;
+}
+
+body.thunderstorm {
+    background: url('https://img.freepik.com/free-photo/weather-effects-composition_23-2149853292.jpg?t=st=1717080085~exp=1717083685~hmac=dbd9dcd8e8a4ecfb6d52469f1c35d1b74dda21fbf717e0a8c9b4e908c13fd8f3&w=2000') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.clear {
+    background: url('https://img.freepik.com/free-photo/blue-sky-with-puffy-white-clouds_1385-12.jpg?t=st=1717080500~exp=1717084100~hmac=ee1833b7f1c7b35d24f246369f72d5dc6afad34364f1962f31a39a67a40e7cb7&w=2000') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.rain {
+    background: url('https://i.err.ee/smartcrop?type=optimize&width=1472&aspectratio=16%3A10&url=https%3A%2F%2Fs.err.ee%2Fphoto%2Fcrop%2F2020%2F11%2F25%2F845887h0c6f.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.snow {
+    background: url('https://img.freepik.com/free-photo/snowy-landscape_1048-3709.jpg?t=st=1717080727~exp=1717084327~hmac=48e1d5b62173d9f90bb0927578a74e942ddc71fd80fb276a7253314e1ea0fb37&w=2000') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.clouds {
+    background: url('https://www.treehugger.com/thmb/w2dViRblhQ1rYMMyYcx-n8idY0A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/clouds-128082585-e371ed6111184c6fa8cfa77313bc18e3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    width: calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.input-group {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.forecast-city {
+    color: white;
+}
